@@ -1,0 +1,10 @@
+﻿<Window x:Class="_01_FirstApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:local="clr-namespace:_01_FirstApp"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        FontSize="22"
+        Title="MainWindow" Height="350" Width="525">
+    <Button>
+        <Button.Content>Hi there</Button.Content>
+    </Button>
+</Window>
