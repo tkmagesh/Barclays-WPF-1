@@ -30,7 +30,10 @@ namespace _02_LayoutsDemo
             if (TxtUsername.Text == PwdPassword.Password)
             {
                 status = "Login successful";
-                TbStatus.Foreground = new SolidColorBrush(new Color(){R=0, G = 255, B=0, A=255});
+                //TbStatus.Foreground = new SolidColorBrush(new Color(){R=0, G = 255, B=0, A=255});
+                //TbStatus.Foreground = new SolidColorBrush(Colors.Green);
+                TbStatus.Foreground = Brushes.Green;
+
             }
             else
             {

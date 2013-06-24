@@ -15,7 +15,14 @@
             <ColumnDefinition Width="2*"></ColumnDefinition>
             <ColumnDefinition Width="3*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Border Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Background="Black">
+        <Border Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+            <Border.Background>
+                <SolidColorBrush>
+                    <SolidColorBrush.Color>
+                        <Color R="0" G="0" B="0" A="255"></Color>
+                    </SolidColorBrush.Color>
+                </SolidColorBrush>
+            </Border.Background>
             <TextBlock Margin="5"  Foreground="Yellow" FontSize="36" Text="Login" VerticalAlignment="Center" ></TextBlock>
         </Border>
         <Label Target="{Binding ElementName=TxtUsername}" Content="_Login :" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center"></Label>
@@ -23,8 +30,22 @@
         <TextBox Name="TxtUsername" Grid.Row="1" Grid.Column="1" Margin="2"></TextBox>
         <PasswordBox Name="PwdPassword" Grid.Row="2" Grid.Column="1" Margin="2"></PasswordBox>
         <StackPanel HorizontalAlignment="Center" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" >
-            <Button Content="Login" Margin="5" MinWidth="120" Name="BtnLogin" Click="BtnLogin_OnClick"></Button>
-            <Button Content="Cancel" Margin="5" MinWidth="120" Name="BtnCancel"></Button>
+            <Button Margin="5" MinWidth="120" Name="BtnLogin" Click="BtnLogin_OnClick">
+                <Button.Content>
+                    <StackPanel Orientation="Horizontal" >
+                        <Image Source="images/accept.png" Stretch="Fill" Margin="4"></Image>
+                        <TextBlock Text="Login" VerticalAlignment="Center"></TextBlock>
+                    </StackPanel>
+                </Button.Content>
+            </Button>
+            <Button Margin="5" MinWidth="120" Name="BtnCancel">
+                <Button.Content>
+                    <StackPanel Orientation="Horizontal" >
+                        <Image Source="images/cancel.png" Stretch="Fill" Margin="4"></Image>
+                        <TextBlock Text="Cancel" VerticalAlignment="Center"></TextBlock>
+                    </StackPanel>
+                </Button.Content>
+            </Button>
         </StackPanel>
         <TextBlock Name="TbStatus" Grid.Row="4" Grid.ColumnSpan="2" Text="[Status]" HorizontalAlignment="Center"></TextBlock>
     </Grid>

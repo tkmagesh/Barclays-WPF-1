@@ -1,0 +1,25 @@
+﻿<Window x:Class="_03_BasicDataBinding.DeclarativeBinding"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        FontSize="22"
+        Title="DeclarativeBinding" Height="317.406" Width="457.679">
+    
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Name="TxtSample" Height="46" Margin="62,32,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="193" />
+        <TextBlock HorizontalAlignment="Left" Name="TbSample" TextWrapping="Wrap"  VerticalAlignment="Top" Margin="62,118,0,0" Width="305">
+            <TextBlock.Text>
+                <Binding ElementName="TxtSample" Path="Text" 
+                         ></Binding>
+            </TextBlock.Text>
+        </TextBlock>
+        <TextBox HorizontalAlignment="Left" Height="48" TextWrapping="Wrap"  VerticalAlignment="Top" Width="193" Margin="62,190,0,0">
+            <TextBox.Text>
+                <Binding ElementName="TxtSample" Path="Text" 
+                         UpdateSourceTrigger="LostFocus"
+                         Mode="OneWay"
+                         ></Binding>
+            </TextBox.Text>
+        </TextBox>
+
+    </Grid>
+</Window>
