@@ -1,0 +1,14 @@
+E:\Barclays-WPF-1\Day-2\01_DataBindingToObjects\01_DataBindingToObjects\bin\Debug\01_DataBindingToObjects.exe
+E:\Barclays-WPF-1\Day-2\01_DataBindingToObjects\01_DataBindingToObjects\bin\Debug\01_DataBindingToObjects.pdb
+E:\Barclays-WPF-1\Day-2\01_DataBindingToObjects\01_DataBindingToObjects\obj\Debug\01_DataBindingToObjects.csprojResolveAssemblyReference.cache
+E:\Barclays-WPF-1\Day-2\01_DataBindingToObjects\01_DataBindingToObjects\obj\Debug\MainWindow.baml
+E:\Barclays-WPF-1\Day-2\01_DataBindingToObjects\01_DataBindingToObjects\obj\Debug\MainWindow.g.cs
+E:\Barclays-WPF-1\Day-2\01_DataBindingToObjects\01_DataBindingToObjects\obj\Debug\App.g.cs
+E:\Barclays-WPF-1\Day-2\01_DataBindingToObjects\01_DataBindingToObjects\obj\Debug\01_DataBindingToObjects_MarkupCompile.cache
+E:\Barclays-WPF-1\Day-2\01_DataBindingToObjects\01_DataBindingToObjects\obj\Debug\01_DataBindingToObjects.g.resources
+E:\Barclays-WPF-1\Day-2\01_DataBindingToObjects\01_DataBindingToObjects\obj\Debug\_01_DataBindingToObjects.Properties.Resources.resources
+E:\Barclays-WPF-1\Day-2\01_DataBindingToObjects\01_DataBindingToObjects\obj\Debug\01_DataBindingToObjects.csproj.GenerateResource.Cache
+E:\Barclays-WPF-1\Day-2\01_DataBindingToObjects\01_DataBindingToObjects\obj\Debug\01_DataBindingToObjects.exe
+E:\Barclays-WPF-1\Day-2\01_DataBindingToObjects\01_DataBindingToObjects\obj\Debug\01_DataBindingToObjects.pdb
+E:\Barclays-WPF-1\Day-2\01_DataBindingToObjects\01_DataBindingToObjects\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Barclays-WPF-1\Day-2\01_DataBindingToObjects\01_DataBindingToObjects\obj\Debug\01_DataBindingToObjects_MarkupCompile.lref
