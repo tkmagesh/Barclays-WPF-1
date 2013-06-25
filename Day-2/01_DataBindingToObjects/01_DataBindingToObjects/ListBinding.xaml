@@ -1,0 +1,28 @@
+﻿<Window x:Class="_01_DataBindingToObjects.ListBinding"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        FontSize="22"
+        Title="ListBinding" Height="300" Width="300">
+    <StackPanel>
+        <Button Name="BtnAddEmployee" Click="BtnAddEmployee_OnClick" Content="Add Employee"></Button>
+        <ListBox Name="ListEmployees">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock FontSize="28" Grid.Row="1" Grid.ColumnSpan="2" Text="{Binding Path=LastName}"></TextBlock>
+                        <TextBlock FontSize="22" Grid.Row="0" Grid.ColumnSpan="1" Text="{Binding Path=FirstName}"></TextBlock>
+                        <TextBlock FontSize="22" HorizontalAlignment="Right" Foreground="Red" Grid.Row="0" Grid.Column="1" Text="{Binding Path=Id}"></TextBlock>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </StackPanel>
+</Window>

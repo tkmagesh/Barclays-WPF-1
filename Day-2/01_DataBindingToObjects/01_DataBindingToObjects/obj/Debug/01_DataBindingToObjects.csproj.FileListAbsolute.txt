@@ -12,3 +12,7 @@ E:\Barclays-WPF-1\Day-2\01_DataBindingToObjects\01_DataBindingToObjects\obj\Debu
 E:\Barclays-WPF-1\Day-2\01_DataBindingToObjects\01_DataBindingToObjects\obj\Debug\01_DataBindingToObjects.pdb
 E:\Barclays-WPF-1\Day-2\01_DataBindingToObjects\01_DataBindingToObjects\obj\Debug\GeneratedInternalTypeHelper.g.cs
 E:\Barclays-WPF-1\Day-2\01_DataBindingToObjects\01_DataBindingToObjects\obj\Debug\01_DataBindingToObjects_MarkupCompile.lref
+E:\Barclays-WPF-1\Day-2\01_DataBindingToObjects\01_DataBindingToObjects\obj\Debug\BindingToObjectsWindow2.g.cs
+E:\Barclays-WPF-1\Day-2\01_DataBindingToObjects\01_DataBindingToObjects\obj\Debug\BindingToObjectsWindow2.baml
+E:\Barclays-WPF-1\Day-2\01_DataBindingToObjects\01_DataBindingToObjects\obj\Debug\ListBinding.baml
+E:\Barclays-WPF-1\Day-2\01_DataBindingToObjects\01_DataBindingToObjects\obj\Debug\ListBinding.g.cs
