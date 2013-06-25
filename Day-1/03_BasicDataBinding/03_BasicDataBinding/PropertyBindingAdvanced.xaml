@@ -5,22 +5,28 @@
         FontSize="26"
         Title="PropertyBindingAdvanced" Height="339.932" Width="502.73">
     <Grid>
+        <Grid.Resources>
+                <local:SliderValueToSolidBrushConverter  
+                    x:Key="taxToForegroundConverter"></local:SliderValueToSolidBrushConverter>
+        </Grid.Resources>
         <Slider HorizontalAlignment="Left" Minimum="0" Maximum="50" SmallChange="1" LargeChange="10" VerticalAlignment="Top" Height="25" Width="486" Name="SliderTax"/>
-        <TextBlock Name="TbTax" HorizontalAlignment="Left" TextWrapping="Wrap"   VerticalAlignment="Top" Margin="241,66,0,0">
+        <TextBlock Name="TbTax"
+                   Foreground="{Binding ElementName=SliderTax, Path=Value, Converter={StaticResource ResourceKey=taxToForegroundConverter}}"
+                   HorizontalAlignment="Left" TextWrapping="Wrap"   VerticalAlignment="Top" Margin="241,66,0,0">
             <!--<TextBlock.Text>
                 <Binding ElementName="SliderTax" Path="Value" StringFormat="00"></Binding>
             </TextBlock.Text>-->
-            <TextBlock.Resources>
+            <!--<TextBlock.Resources>
                 <local:SliderValueToSolidBrushConverter  
                     x:Key="taxToForegroundConverter"></local:SliderValueToSolidBrushConverter>
-            </TextBlock.Resources>
-            <TextBlock.Foreground>
+            </TextBlock.Resources>-->
+            <!--<TextBlock.Foreground>
                 <Binding ElementName="SliderTax" Path="Value">
                     <Binding.Converter>
                         <StaticResource ResourceKey="taxToForegroundConverter"></StaticResource>
                     </Binding.Converter>
                 </Binding>
-            </TextBlock.Foreground>
+            </TextBlock.Foreground>-->
         </TextBlock>
 
     </Grid>
