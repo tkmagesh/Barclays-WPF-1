@@ -1,0 +1,25 @@
+﻿<Window x:Class="_01_MVVMTestability.GreetWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:viewModels="clr-namespace:_01_MVVMTestability.ViewModels;assembly=01_MVVMTestability.ViewModels"
+        Title="GreetWindow" Height="300" Width="300">
+    <Window.Resources>
+        <viewModels:GreeterViewModel x:Key="VmContext"></viewModels:GreeterViewModel>
+    </Window.Resources>
+    <Window.DataContext>
+        <StaticResource ResourceKey="VmContext"></StaticResource>
+    </Window.DataContext>
+    <Grid>
+        <TextBox 
+            Text="{Binding Path=Name, Mode=TwoWay}"
+            HorizontalAlignment="Left" Height="23" Margin="58,59,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Button 
+            Command="{Binding Path=GreetCommand}"
+            Content="Greet" HorizontalAlignment="Left" Margin="58,109,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBlock 
+            Text="{Binding Path=GreetMessage}"
+            Foreground="{Binding Path=MessageColor}"
+            HorizontalAlignment="Left" Margin="25,199,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="259"/>
+
+    </Grid>
+</Window>

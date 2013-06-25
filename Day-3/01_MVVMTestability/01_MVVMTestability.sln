@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_MVVMTestability", "01_MVVMTestability\01_MVVMTestability.csproj", "{91A70645-50A4-43E5-89F0-7010EBE2212A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_MVVMTestability.Tests", "01_MVVMTestability.Tests\01_MVVMTestability.Tests.csproj", "{72C53423-B6F7-41BB-AE8C-4C0834E1DBB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_MVVMTestability.ViewModels", "01_MVVMTestability.ViewModels\01_MVVMTestability.ViewModels.csproj", "{0B1DD2E5-75C9-4619-BEF6-6C8F67E720A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_MVVMTestability.Domain", "01_MVVMTestability.Domain\01_MVVMTestability.Domain.csproj", "{9C69A123-08E1-4936-87EC-7660C7BC6F05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91A70645-50A4-43E5-89F0-7010EBE2212A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A70645-50A4-43E5-89F0-7010EBE2212A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A70645-50A4-43E5-89F0-7010EBE2212A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A70645-50A4-43E5-89F0-7010EBE2212A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72C53423-B6F7-41BB-AE8C-4C0834E1DBB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C53423-B6F7-41BB-AE8C-4C0834E1DBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C53423-B6F7-41BB-AE8C-4C0834E1DBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C53423-B6F7-41BB-AE8C-4C0834E1DBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B1DD2E5-75C9-4619-BEF6-6C8F67E720A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B1DD2E5-75C9-4619-BEF6-6C8F67E720A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B1DD2E5-75C9-4619-BEF6-6C8F67E720A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B1DD2E5-75C9-4619-BEF6-6C8F67E720A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C69A123-08E1-4936-87EC-7660C7BC6F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C69A123-08E1-4936-87EC-7660C7BC6F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C69A123-08E1-4936-87EC-7660C7BC6F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C69A123-08E1-4936-87EC-7660C7BC6F05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+E:\Barclays-WPF-1\Day-3\MEFAppDemo\MEFAppDemo.Contracts\bin\Debug\MEFAppDemo.Contracts.dll
+E:\Barclays-WPF-1\Day-3\MEFAppDemo\MEFAppDemo.Contracts\bin\Debug\MEFAppDemo.Contracts.pdb
+E:\Barclays-WPF-1\Day-3\MEFAppDemo\MEFAppDemo.Contracts\obj\Debug\MEFAppDemo.Contracts.csprojResolveAssemblyReference.cache
+E:\Barclays-WPF-1\Day-3\MEFAppDemo\MEFAppDemo.Contracts\obj\Debug\MEFAppDemo.Contracts.dll
+E:\Barclays-WPF-1\Day-3\MEFAppDemo\MEFAppDemo.Contracts\obj\Debug\MEFAppDemo.Contracts.pdb

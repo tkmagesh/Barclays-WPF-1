@@ -1,0 +1,43 @@
+﻿<Window x:Class="_01_MVVMTestability.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:_01_MVVMTestability.ViewModels;assembly=01_MVVMTestability.ViewModels"
+        FontSize="22"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Name="GridLayoutRoot" >
+        <Grid.Resources>
+            <local:Employee x:Key="DataBindingObject" FirstName="Magesh" LastName="Kuppan">
+                
+            </local:Employee>
+        </Grid.Resources>
+        <Grid.DataContext>
+            <!--<Binding Source="{StaticResource DataBindingObject}"></Binding>-->
+            <StaticResource ResourceKey="DataBindingObject"></StaticResource>
+        </Grid.DataContext>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Content="First Name :" Grid.Row="0" HorizontalAlignment="Right" Margin="10"></Label>
+        <Label Content="Last Name :" Grid.Row="1" HorizontalAlignment="Right" Margin="10"></Label>
+        <Label Content="Full Name :" Grid.Row="2" HorizontalAlignment="Right" Margin="10"></Label>
+        <TextBox 
+            Text="{Binding Path=FirstName}"
+            Name="TxtFirstName" Grid.Row="0" Grid.Column="1" Margin="10"></TextBox>
+        <TextBox 
+            Text="{Binding Path=LastName}"
+            Name="TxtLastName"  Grid.Row="1" Grid.Column="1" Margin="10"></TextBox>
+        <TextBlock
+            Text="{Binding Path=FullName}"
+            Name="TbFullName" Grid.Row="2" Grid.Column="1" Margin="10"></TextBlock>
+        <Button Content="Print Employee" IsEnabled="{Binding Path=CanFullNameBeGenerated}" Name="BtnPrintEmployee" Grid.Row="3"> </Button>
+        <Button Content="Change Employee" Name="BtnChangeEmployee" Grid.Row="3" Grid.Column="1"  ></Button>
+    </Grid>
+    
+</Window>

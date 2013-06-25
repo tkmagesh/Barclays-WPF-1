@@ -1,0 +1,5 @@
+E:\Barclays-WPF-1\Day-3\01_MVVMTestability\01_MVVMTestability.Domain\bin\Debug\01_MVVMTestability.Domain.dll
+E:\Barclays-WPF-1\Day-3\01_MVVMTestability\01_MVVMTestability.Domain\bin\Debug\01_MVVMTestability.Domain.pdb
+E:\Barclays-WPF-1\Day-3\01_MVVMTestability\01_MVVMTestability.Domain\obj\Debug\01_MVVMTestability.Domain.dll
+E:\Barclays-WPF-1\Day-3\01_MVVMTestability\01_MVVMTestability.Domain\obj\Debug\01_MVVMTestability.Domain.pdb
+E:\Barclays-WPF-1\Day-3\01_MVVMTestability\01_MVVMTestability.Domain\obj\Debug\01_MVVMTestability.Domain.csprojResolveAssemblyReference.cache

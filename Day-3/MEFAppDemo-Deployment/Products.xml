@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Products>
+  <Product>
+    <Id>101</Id>
+    <Name>Pen</Name>
+    <Cost>₹ 101.00</Cost>
+  </Product>
+  <Product>
+    <Id>131</Id>
+    <Name>Ken</Name>
+    <Cost>₹ 102.00</Cost>
+  </Product>
+  <Product>
+    <Id>121</Id>
+    <Name>Den</Name>
+    <Cost>₹ 103.00</Cost>
+  </Product>
+  <Product>
+    <Id>111</Id>
+    <Name>Ten</Name>
+    <Cost>₹ 104.00</Cost>
+  </Product>
+</Products>
