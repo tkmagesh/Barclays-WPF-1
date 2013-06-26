@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.Composition;
 using System.Linq;
 using System.Text;
 using System.Windows.Data;
@@ -9,6 +10,7 @@ using _01_MVVMTestability.Domain;
 
 namespace _01_MVVMTestability.ViewModels
 {
+    [Export]
     public class GreeterViewModel : INotifyPropertyChanged
     {
         private string _name;
@@ -55,12 +57,14 @@ namespace _01_MVVMTestability.ViewModels
             }
         }
 
+        [Import(typeof(ITimeService))]
         public TimeService TimeService
         {
             get { return _timeService; }
             set { _timeService = value; }
         }
 
+        [Import(typeof(Greeter))]
         public Greeter Greeter
         {
             get { return _greeter; }
@@ -69,10 +73,10 @@ namespace _01_MVVMTestability.ViewModels
 
         public GreeterViewModel()
         {
-            _timeService = new TimeService();
-            _greeter = new Greeter(_timeService);
+            //_timeService = new TimeService();
+            //_greeter = new Greeter(_timeService);
             _greetCommand = new MyCommand(GenerateGreetMsg, o => true);
-            _messageColorProvider = new MessageColorProvider(_timeService);
+            //_messageColorProvider = new MessageColorProvider(_timeService);
         }
 
         public Brush MessageColor

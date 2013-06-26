@@ -1,14 +1,17 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel.Composition;
 using System.Linq;
 using System.Text;
 
 namespace _01_MVVMTestability.Domain
 {
+    [Export]
     public class Greeter
     {
         private readonly ITimeService _timeService;
 
-        public Greeter(ITimeService timeService)
+        [ImportingConstructor]
+        public Greeter([Import]ITimeService timeService)
         {
             _timeService = timeService;
         }
