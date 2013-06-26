@@ -1,0 +1,22 @@
+﻿<Window x:Class="DependencyPropertiesDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:DependencyPropertiesDemo"
+        FontSize="22"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <!--<Style x:Key="DataEntryFieldStyle" TargetType="local:DataEntryField">
+            <Setter Property="Caption" Value="Age :"></Setter>
+        </Style>-->
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBox Grid.Row="0" Name="TxtDummy" Text=""></TextBox>
+        <local:DataEntryField Value="{Binding ElementName=TxtDummy, Path=Text}" Caption="Name :" x:Name="DefName" Grid.Row="1"></local:DataEntryField >
+        <Button Content="What is the name?" Grid.Row="2" Name="BtnWhatIsTheName" Click="BtnWhatIsTheName_OnClick"></Button>
+    </Grid>
+</Window>

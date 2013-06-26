@@ -26,6 +26,8 @@ namespace _01_MVVMTestability
             InitializeComponent();
 
             this.DataContext = ((App) Application.Current).Container.GetExportedValue<GreeterViewModel>();
+          
+            
             //var greeterViewModel = container.GetExportedValue<GreeterViewModel>();
             //MessageBox.Show("Done");
         }

@@ -7,10 +7,12 @@ using System.Windows.Data;
 using System.Windows.Input;
 using System.Windows.Media;
 using _01_MVVMTestability.Domain;
+using System.ComponentModel.Composition.Hosting;
+using System.Windows;
 
 namespace _01_MVVMTestability.ViewModels
 {
-    [Export]
+    [Export()]
     public class GreeterViewModel : INotifyPropertyChanged
     {
         private string _name;
@@ -75,6 +77,7 @@ namespace _01_MVVMTestability.ViewModels
         {
             //_timeService = new TimeService();
             //_greeter = new Greeter(_timeService);
+            
             _greetCommand = new MyCommand(GenerateGreetMsg, o => true);
             //_messageColorProvider = new MessageColorProvider(_timeService);
         }

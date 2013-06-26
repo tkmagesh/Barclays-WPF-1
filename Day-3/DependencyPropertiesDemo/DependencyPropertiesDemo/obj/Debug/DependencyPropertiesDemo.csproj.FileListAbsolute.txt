@@ -1,0 +1,16 @@
+E:\Barclays-WPF-1\Day-3\DependencyPropertiesDemo\DependencyPropertiesDemo\bin\Debug\DependencyPropertiesDemo.exe
+E:\Barclays-WPF-1\Day-3\DependencyPropertiesDemo\DependencyPropertiesDemo\bin\Debug\DependencyPropertiesDemo.pdb
+E:\Barclays-WPF-1\Day-3\DependencyPropertiesDemo\DependencyPropertiesDemo\obj\Debug\DependencyPropertiesDemo.csprojResolveAssemblyReference.cache
+E:\Barclays-WPF-1\Day-3\DependencyPropertiesDemo\DependencyPropertiesDemo\obj\Debug\DataEntryField.baml
+E:\Barclays-WPF-1\Day-3\DependencyPropertiesDemo\DependencyPropertiesDemo\obj\Debug\MainWindow.baml
+E:\Barclays-WPF-1\Day-3\DependencyPropertiesDemo\DependencyPropertiesDemo\obj\Debug\DataEntryField.g.cs
+E:\Barclays-WPF-1\Day-3\DependencyPropertiesDemo\DependencyPropertiesDemo\obj\Debug\MainWindow.g.cs
+E:\Barclays-WPF-1\Day-3\DependencyPropertiesDemo\DependencyPropertiesDemo\obj\Debug\App.g.cs
+E:\Barclays-WPF-1\Day-3\DependencyPropertiesDemo\DependencyPropertiesDemo\obj\Debug\DependencyPropertiesDemo_MarkupCompile.cache
+E:\Barclays-WPF-1\Day-3\DependencyPropertiesDemo\DependencyPropertiesDemo\obj\Debug\DependencyPropertiesDemo.g.resources
+E:\Barclays-WPF-1\Day-3\DependencyPropertiesDemo\DependencyPropertiesDemo\obj\Debug\DependencyPropertiesDemo.Properties.Resources.resources
+E:\Barclays-WPF-1\Day-3\DependencyPropertiesDemo\DependencyPropertiesDemo\obj\Debug\DependencyPropertiesDemo.csproj.GenerateResource.Cache
+E:\Barclays-WPF-1\Day-3\DependencyPropertiesDemo\DependencyPropertiesDemo\obj\Debug\DependencyPropertiesDemo.exe
+E:\Barclays-WPF-1\Day-3\DependencyPropertiesDemo\DependencyPropertiesDemo\obj\Debug\DependencyPropertiesDemo.pdb
+E:\Barclays-WPF-1\Day-3\DependencyPropertiesDemo\DependencyPropertiesDemo\obj\Debug\DependencyPropertiesDemo_MarkupCompile.lref
+E:\Barclays-WPF-1\Day-3\DependencyPropertiesDemo\DependencyPropertiesDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs
