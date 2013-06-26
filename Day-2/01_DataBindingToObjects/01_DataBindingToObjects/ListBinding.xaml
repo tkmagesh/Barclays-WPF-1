@@ -6,6 +6,7 @@
     <StackPanel>
         <Button Name="BtnAddEmployee" Click="BtnAddEmployee_OnClick" Content="Add Employee"></Button>
         <ListBox Name="ListEmployees">
+           
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Grid>

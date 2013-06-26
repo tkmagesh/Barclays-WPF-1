@@ -24,7 +24,7 @@ namespace _01_DataBindingToObjects
         public ListBinding()
         {
             InitializeComponent();
-            employees = new ObservableCollection<Employee>()
+            Employees = new ObservableCollection<Employee>()
                 {
                     new Employee() {FirstName = "Magesh", LastName = "K", Id = 101},
                     new Employee() {FirstName = "Suresh", LastName = "K", Id = 102},
@@ -32,16 +32,22 @@ namespace _01_DataBindingToObjects
                     new Employee() {FirstName = "Rajesh", LastName = "P", Id = 104}
                 };
             
-            ListEmployees.ItemsSource = employees;
+            ListEmployees.ItemsSource = Employees;
+        }
+
+        public ObservableCollection<Employee> Employees
+        {
+            get { return employees; }
+            set { employees = value; }
         }
 
         private void BtnAddEmployee_OnClick(object sender, RoutedEventArgs e)
         {
-            employees.Add(new Employee()
+            Employees.Add(new Employee()
                 {
                     FirstName = "Yuva", LastName = "K", Id = 105
                 });
-            MessageBox.Show(employees.Count.ToString());
+            MessageBox.Show(Employees.Count.ToString());
         }
     }
 }
